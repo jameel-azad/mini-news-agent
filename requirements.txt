@@ -1,0 +1,7 @@
+sqlite3
+pathlib
+requests
+json
+fastapi
+uvicorn
+streamlit
