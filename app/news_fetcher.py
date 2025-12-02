@@ -1,8 +1,12 @@
 import requests
 import json
 import sys
+import os
+from dotenv import load_dotenv
 
-API_KEY="d7f2107e29d84d7792e75ed266afbb2c"
+load_dotenv()
+
+API_KEY= os.getenv('API_KEY')
 BASE_URL = "https://newsapi.org/v2/everything"
 
 def fetch_news_raw(comapny_name:str):

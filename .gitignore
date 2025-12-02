@@ -3,3 +3,4 @@ __pycache__/
 .env
 news.db
 otput.json
+.env
